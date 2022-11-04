@@ -1,0 +1,24 @@
+@media screen and (max-width:320px) {
+    .section__container__index .row {
+        background-image: url(./img/audi-320.jpg);
+        background-size: cover;
+    }
+    .section__container__index .row p{
+        display: none;
+    }
+    .carousel img {
+        height:20vh;
+    }
+}
+@media screen and (max-width:768px) {
+    .section__card{
+        align-items: center;
+    }
+    .section__modelos{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section__modelos .row{
+        justify-content: flex-end;
+    }
+}
