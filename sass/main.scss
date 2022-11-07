@@ -3,3 +3,14 @@
 @import "./parciales/_header.scss";
 @import "./parciales/_variables.scss";
 @import "./parciales/_section.scss";
+
+
+.zindex{
+        position: fixed;
+        right: 10px;
+        bottom: 20px;
+        z-index: 99;
+        height: auto;
+        width: auto;
+
+}

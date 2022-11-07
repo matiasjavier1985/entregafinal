@@ -209,5 +209,10 @@
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
-body {
-  background-image: url(/assets/img/patternpad.svg); }
+.zindex {
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+  z-index: 99;
+  height: auto;
+  width: auto; }
