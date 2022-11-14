@@ -209,10 +209,16 @@
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
+h1 {
+  text-shadow: 10px 5px 5px #63626296; }
+
+h2 {
+  text-shadow: 10px 5px 5px #63626296; }
+
 .zindex {
   position: fixed;
   right: 10px;
-  bottom: 20px;
+  bottom: 15px;
   z-index: 99;
   height: auto;
   width: auto; }
